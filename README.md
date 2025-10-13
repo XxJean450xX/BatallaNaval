@@ -102,7 +102,7 @@ Allí se describe la estructura, el flujo del sistema y el diseño técnico deta
 ## Créditos
 **Universidad Distrital Francisco José de Caldas**  
 Profesora: **Nancy Yaneth Gélvez García**  
-Autores: *[Espacio para nombres de los integrantes]*  
+Autores: *Jean Paul Contreras Talero*  
 
 ---
 

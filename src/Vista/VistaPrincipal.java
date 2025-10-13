@@ -35,6 +35,8 @@ import java.awt.Font;
 import javax.swing.DefaultComboBoxModel;
 import java.io.File; 
 import java.io.IOException;
+import java.awt.event.ActionListener;
+import java.awt.event.ActionEvent;
 
 /**
  * Interfaz gráfica principal ({@code JFrame}) del juego Batalla Naval.
@@ -134,6 +136,12 @@ public class VistaPrincipal extends JFrame {
         panelSuperior.add(btnHistorial);
         
         btnCerraSesion = new JButton("CERRAR SESION");
+        btnCerraSesion.addActionListener(new ActionListener() {
+        	public void actionPerformed(ActionEvent e) {
+        		dispose();
+        		new LoginUI().setVisible(true);
+        	}
+        });
         btnCerraSesion.setFont(FUENTE_UI);
         btnCerraSesion.setBounds(137, 5, 120, 40);
         btnCerraSesion.setBackground(COLOR_FONDO_OSCURO);
